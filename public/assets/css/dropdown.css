@@ -1,0 +1,84 @@
+
+.user_options.icon_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+  }
+
+  .icon_container a:not(:last-child) {
+    margin-right: 20px;
+  }
+
+
+
+.user_options {
+    position: relative;
+  }
+
+  .user_links {
+    color: #ffffff;
+  }
+  .cart_links {
+    color: #ffffff;
+  }
+  .search_links {
+    color: #ffffff;
+  }
+
+  .login_register_popup {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1;
+    display:table;
+  }
+
+  .user_options.active .login_register_popup {
+    display: block;
+  }
+
+  .login_form, .register_form {
+    display: none;
+    margin-top: 30px;
+    margin-left: -100px;
+    width: 300px;
+    padding: 20px;
+    background-color:#180701;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  }
+
+  .login_register_popup h2 {
+    margin-top: 0;
+    color:#ffffff;
+
+
+  }
+
+  .login_register_popup label {
+    display: block;
+    margin-bottom: 5px;
+    color:#ffffff;
+  }
+
+  .login_register_popup input {
+    display: block;
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ffffff;
+  }
+
+  .login_register_popup button[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #8b5e47;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+  }
+
+  .login_register_popup button[type="submit"]:hover {
+    background-color: #8b5e47;
+  }
